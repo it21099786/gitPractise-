@@ -1,0 +1,5 @@
+Test Case,Description,Object,Action ,DataColumn,WaitAfter
+login,Enter the Username in the UserName field,username,input,userName,
+login,Enter the Password in the Password field,password,input,password,
+login,Click on Login button,submit,click,,
+login,Verify text,error,verifyText,errMsg,

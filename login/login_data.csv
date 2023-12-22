@@ -1,0 +1,17 @@
+Test Case ID,Enabled,Description,userName,password,errMsg
+login,1,Enter empty username and empty password,,,Your username is invalid! 
+login,1,Enter empty username and correct password,,Password123,Your username is invalid! 
+login,1,Enter an existing username and empty password,student,,Your password is invalid!
+login,1,Enter non existing username and empty password ,creativelogodesigner@gmail.com,,Your username is invalid! 
+login,1,Enter non existing username and password,creativelogodesigner@gmail.com,euyuyeuy,Your username is invalid! 
+login,1,Enter an existing username but the corresponding password in capital,student,PASSWORD123,Your password is invalid!
+login,1,Enter an existing username and corresponding password both in capital,STUDENT,Password123,Your username is invalid! 
+login,1,Enter email with white spaces,creative logodesigner124@gmail.com,Password123,Your username is invalid! 
+login,1,Enter password with white spaces,student,Password @123,Your password is invalid!
+login,1,Enter an existing username and correct password with leading white space,student, Password@123,Your password is invalid!
+login,1,Enter an existing username and correct password with trailing white space,student,Password@123 ,Your password is invalid!
+login,1,Enter an existing username with leading white space and correct password, student,Password@123 ,Your password is invalid!
+login,1,Enter registered email in invalid format and correct password,creativelogodesigner124.gmail.com,Password@123 ,Your username is invalid! 
+login,1,Enter an existing username and incorrect password,student,euyuyeuy,Your username or password is invalid!
+login,1,Enter an existing username with trailing white space and correct password,student ,Password@123 ,Your username or password is invalid!
+login,1,Enter an existing username and correct password,student,Password123,
