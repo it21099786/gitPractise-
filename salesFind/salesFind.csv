@@ -1,0 +1,8 @@
+Test Case,Description,Object,Action ,DataColumn,WaitAfter
+salesFind,Click daily sales button ,zonoc.jas:id/dailySales,stpClick,,
+salesFind,Enter sales amount,zonoc.jas:id/split00_amt,input,sales,
+salesFind,Enter sales Return amount,zonoc.jas:id/split01_amt,input,salesReturn,
+salesFind,Enter purchase Return,zonoc.jas:id/split02_amt,input,purchaseReturn,
+salesFind,Enter Year,zonoc.jas:id/trans_acDate,input,date,
+salesFind,click find button,zonoc.jas:id/find,click,,
+salesFind,Verify text,zonoc.jas:id/snackbar_text,verifyText,errMsg,
