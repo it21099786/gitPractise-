@@ -1,0 +1,6 @@
+Test Case,Description,Object,Action ,DataColumn,WaitAfter
+signup,Redirect to signup page,zonoc.jas:id/signupui,stpClick,,
+signup,Enter username,zonoc.jas:id/string_usrName,input,userName,
+signup,Enter Mobile Number,zonoc.jas:id/string_mobileNo,input,mobilenum,
+signup,Enter Business Name,zonoc.jas:id/string_businessName,input,businessName,
+signup,Click signup button,zonoc.jas:id/signup,click,,
